@@ -1,3 +1,84 @@
-h1{
-    color: red;
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+
+.first-nav a{
+    text-decoration: none;
+    color: black;
+}
+
+.form-box{
+    border: none;
+}
+
+button{
+    background-color: white;
+    height: 100%;
+    border: none;
+}
+
+.first-nav{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-around;
+    height: 30px;
+    background-color: #eeeeee;
+}
+
+.address{
+    display: flex;
+    justify-content: space-around;
+    /* border: 2px solid green; */
+    width: 25%;
+    align-items: center;
+    font-weight: bold;
+}
+
+.form{
+    display: flex;
+    justify-content: flex-end;
+    /* border: 2px solid; */
+    width: 30%;
+}
+
+/* ///////////////////////////////////// */
+
+/* navbar started */
+
+
+nav{
+    display: flex;
+    border: 1px solid red;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.logo>img{
+    width: 200px;
+}
+.logo{
+    border: 1px solid black;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    border: 1px solid green;
+    gap: 20px;
+    height: 60px;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+ul a{
+    text-decoration: none;
+}
+
+
+/* navbar ended */
+
